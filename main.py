@@ -1,6 +1,6 @@
 pets = []
 people = []
-citys = []
+cities = []
 
 pet1 = {
 	'type of animal':'cat',
@@ -43,5 +43,24 @@ for people in people:
 	print(f"{people}")
 
 city1 = {
-	
-}
+	'city name':'',
+	'population':'',
+	'country':'',
+	'fact':'', }
+cities.append(city1)
+
+city2 = {
+	'city name':'',
+	'population':'',
+	'country':'',
+	'fact':'', }
+cities.append(city2)
+
+city3 = {
+	'city name':'',
+	'population':'',
+	'country':'',
+	'fact':'', }
+cities.append(city3)
+for cities in cities:
+	print(f"{cities}")
