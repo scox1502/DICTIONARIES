@@ -29,15 +29,15 @@ people1 = {
 people.append(people1)
 
 people2 = {
-	'first name':'',
-	'last name':'',
-	'phone number':'', }
+	'first name':'Dwayne',
+	'last name':'Johnson',
+	'phone number':'203-989-3399', }
 people.append(people2)
 
 people3 = {
-	'first name':'',
-	'last name':'',
-	'phone number':'', }
+	'first name':'Thomas',
+	'last name':'Holland',
+	'phone number':'913-829-2372', }
 people.append(people3)
 for people in people:
 	print(f"{people}")
