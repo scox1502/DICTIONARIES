@@ -43,24 +43,24 @@ for people in people:
 	print(f"{people}")
 
 city1 = {
-	'city name':'',
-	'population':'',
-	'country':'',
-	'fact':'', }
+	'city name':'north delta',
+	'estimated population':'60,769',
+	'country':'Canada',
+	'fact':'it is the biggest municipality in the GVRD', }
 cities.append(city1)
 
 city2 = {
-	'city name':'',
-	'population':'',
-	'country':'',
-	'fact':'', }
+	'city name':'tokyo',
+	'estimated population':'37.4 million',
+	'country':'japan',
+	'fact':'Tokyo has the most Michelin-starred restaurants in the world', }
 cities.append(city2)
 
 city3 = {
-	'city name':'',
-	'population':'',
-	'country':'',
-	'fact':'', }
+	'city name':'new york',
+	'estimated population':'8,097,282',
+	'country':'the united states of amarica',
+	'fact':'More than 800 languages are spoken in New York City', }
 cities.append(city3)
 for cities in cities:
 	print(f"{cities}")
