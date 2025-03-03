@@ -19,7 +19,8 @@ pet3 = {
 	'name':'vera',
 	'owner':'mickeal', }
 pets.append(pet3)
-print(f"{pets}")
+for pets in pets:
+	print(f"{pets}")
 
 people1 = {
 	
