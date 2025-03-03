@@ -23,6 +23,25 @@ for pets in pets:
 	print(f"{pets}")
 
 people1 = {
-	
+	'first name':'samuel',
+	'last name':'cox',
+	'phone number':'236 515 5475', }
+people.append(people1)
 
+people2 = {
+	'first name':'',
+	'last name':'',
+	'phone number':'', }
+people.append(people2)
+
+people3 = {
+	'first name':'',
+	'last name':'',
+	'phone number':'', }
+people.append(people3)
+for people in people:
+	print(f"{people}")
+
+city1 = {
+	
 }
