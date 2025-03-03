@@ -19,8 +19,7 @@ pet3 = {
 	'name':'vera',
 	'owner':'mickeal', }
 pets.append(pet3)
-for pets in pets:
-	print(f"{pets}")
+
 
 people1 = {
 	'first name':'samuel',
@@ -39,8 +38,7 @@ people3 = {
 	'last name':'Holland',
 	'phone number':'913-829-2372', }
 people.append(people3)
-for people in people:
-	print(f"{people}")
+
 
 city1 = {
 	'city name':'north delta',
@@ -62,5 +60,5 @@ city3 = {
 	'country':'the united states of amarica',
 	'fact':'More than 800 languages are spoken in New York City', }
 cities.append(city3)
-for cities in cities:
-	print(f"{cities}")
+
+
