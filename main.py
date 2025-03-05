@@ -65,17 +65,24 @@ cities.append(city3)
 
 while True:
 	choice = input("would you like to see the pets section, the people section, the city section, or would you like to exit? [pets/people/cities/exit] ").strip().lower()
+	print("")
 	if choice == "pets":
-		for pets in pets:
-			print(f"{pets}")
+		for pet_dictionary in pets:
+			for key, value in pet_dictionary.items():
+				print(key, value)
+			print("")
 		pass
 	if choice == "people":
-		for people in people:
-			print(f"{people}")
+		for people_dictionary in people:
+			for key, value in people_dictionary.items():
+				print(key, value)
+			print("")
 		pass
 	if choice == "cities":
-		for cities in cities:
-			print(f"{cities}")
+		for city_dictionary in cities:
+			for key, value in city_dictionary.items():
+				print(key, value)
+			print("")
 		pass
 	if choice == "exit":
 		break
